@@ -1,4 +1,3 @@
-
 const readline = require ('readline')
 
 const rl = readline.createInterface
@@ -7,9 +6,9 @@ const rl = readline.createInterface
     output : process.stdout
 })
 
-rl.question('entrer capacité exprimée en Gigaoctets ', (GB)=>{
+rl.question('entrer capacité exprimée en Gigaoctets: ', (GB) =>{
     console.log(`stockage : ${GB}` + " GB")
     let MB = GB * 1024
-    console.log(`stockage : ${MB}`+ " MB")
+    console.log(`result : ${MB}`+ " MB")
     rl.close()
 })
