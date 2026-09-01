@@ -1,0 +1,10 @@
+Pseudo = "ahmedX";
+niveau = 12;
+age = 21;
+score = 4580;
+pays = "maroc";
+console.log("Pseudo : "+ Pseudo);
+console.log("niveau : "+ niveau);
+console.log("age : "+ age);
+console.log("score : "+ score);
+console.log("pays : "+ pays);
