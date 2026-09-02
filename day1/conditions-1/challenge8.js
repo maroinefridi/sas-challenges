@@ -8,10 +8,9 @@ console.log("operateur : " + operateur);
 console.log("deuxiem nomber : " + b);
 
 if (b == 0){
-    console.log("zero");
+    console.log("division sur zero est pas possible");
     process.exit();
 }
-
 
 switch (operateur) {
     case '+':
