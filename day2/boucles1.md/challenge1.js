@@ -1,5 +1,3 @@
-//A
-//Partie 1 — Boucle for
 //Compter les participants
 let prompt = require('prompt-sync')();
 let nombre = prompt('Nombre de participants : ');
