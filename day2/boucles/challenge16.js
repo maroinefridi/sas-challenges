@@ -1,5 +1,5 @@
 //Deviner un nombre
-let Nombresecret = 19;
+let Nombresecret = 45;
 let prompt = require(`Prompt-sync`)();;
 let Tentative;
 do{
@@ -8,5 +8,4 @@ do{
     Tentative < Nombresecret ? console.log(`Trop petit entrer un autre nomber : `):null;
     Tentative == Nombresecret ? console.log(`Bravo!`):null;
 }
-while(Tentative != Nombresecret){
-}
+while(Tentative != Nombresecret){}

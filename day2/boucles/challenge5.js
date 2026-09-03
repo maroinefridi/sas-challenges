@@ -1,5 +1,4 @@
 //Compter les multiples
-let prompt = require("prompt-sync")();
 let N = +prompt('N = ');
 let X = +prompt('X = ');
 
