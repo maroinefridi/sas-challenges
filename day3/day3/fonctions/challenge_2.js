@@ -7,4 +7,4 @@ let Agechien = calculerAgeChien(ageHumain);
 function calculerAgeChien(ageHuman){
     return ageHumain * 7 ;
 }
-console.log(`L'âge du chien équivalent est : ${Agehien} ans.`);
+console.log(`L'âge du chien équivalent est : ${Agechien} ans.`);
