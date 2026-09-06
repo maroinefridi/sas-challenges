@@ -1,9 +1,9 @@
 // Calculateur de Somme
-function calculerSomme(tab){
+function calculerSomme(tab) {
     let sum = 0;
-    for(i=0;i<tab.length;i++){
+    for (i = 0; i < tab.length; i++) {
         sum += tab[i];
     }
     return sum;
 }
-console.log(calculerSomme([10,20,40]))
+console.log(calculerSomme([10, 20, 40]))
