@@ -1,5 +1,5 @@
 //Deviner un nombre
-let Nombresecret = 45;
+let Nombresecret = 101;
 let prompt = require(`Prompt-sync`)();;
 let Tentative;
 do{
